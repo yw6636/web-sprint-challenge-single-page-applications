@@ -1,5 +1,16 @@
+nav{
+  display:flex;
+  width:100%;
+}
+
+h1{
+  width:50%;
+}
+
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -14,14 +25,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: left;
+  text-align: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +43,93 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-links {
+  align-items: right;
+  text-align: right;
+  margin: 20px 40px;
+  display:flex;
+  justify-content: flex-end;
+  width:50%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1c5d76;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.nav-links a.active {
+  border-bottom: 1px solid #1c5d76;
+}
+
+.H2{
+  margin: 100px;
+  font-size: 20px;
+}
+
+.image{
+  height:10%;
+  width: 50%;
+}
+
+.button{
+  font-size: 16px;
+  padding: 15px 32px;
+  margin: 40px 20px;
+  color: rgb(106, 27, 27);
+  background-color: rgb(251, 193, 166);
+  border: 2px solid black; 
+}
+
+.Pizza{
+  align-items: center;
+  text-align: center;
+  margin: 1px 26%;
+  width: 50%;
+  border: 2px solid black;
+}
+.PizzaImage{
+  border-top: 2px solid black;
+}
+.size {
+  align-items: left;
+  text-align:left;
+  margin-bottom: 15px;
+}
+.sizeH2{
+  border-top: 2px solid black;
+  text-align: left;
+}
+.sizeH3{
+  background-color: rgb(211, 211, 211);
+  text-align:left;
+}
+.sauce{
+  text-align:left;
+  background-color: rgb(211,211,211);
+}
+.sauce-select{
+  text-align:left;
+  align-items: left;
+}
+.toppings{
+  text-align:left;
+  background-color: rgb(211,211,211);
+}
+.toppings-label{
+  text-align:left;
+}
+.special{
+  text-align:left;
+  background-color:rgb(211,211,211);
+}
+.special-text{
+  text-align:left;
+}
+.order{
+  font-size: 16px;
+  padding: 15px 32px;  
 }
